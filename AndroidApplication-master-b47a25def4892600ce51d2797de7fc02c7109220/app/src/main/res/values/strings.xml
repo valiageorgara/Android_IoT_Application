@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Emotiv</string>
+    <string name="exit">Exit</string>
+    <string name="AndroidSettings">Android Settings</string>
+    <string name="JavaSettings">Java Settings</string>
+    <string name="textView3">MUSIC</string>
+    <string name="textView2">FLASHLIGHT</string>
+    <string name="subText">message</string>
+    <string name="FlashButton">ON</string>
+    <string name="MusicButton">PLAY</string>
+    <string name="broker_input">Broker Input</string>
+    <string name="error_login_msg">Please fill any empty fields</string>
+    <string name="flashlight">flashlight</string>
+    <string name="play">play</string>
+    <string name="music">music</string>
+    <string name="broker_ip">Broker IP</string>
+    <string name="port_number">Port Number</string>
+    <string name="in_order_to_make_the_connection_with_the_broker_go_to_menu_android_settings_and_give_the_connection_parameters_your_inputs_will_be_shown_below"><![CDATA[In order to make the connection with the broker, go to menu->Android Settings and give the connection parameters. Your inputs will be shown below:]]></string>
+    <string name="message">message</string>
+    <string name="connect">CONNECT</string>
+    <string name="on">on</string>
+
+
+</resources>

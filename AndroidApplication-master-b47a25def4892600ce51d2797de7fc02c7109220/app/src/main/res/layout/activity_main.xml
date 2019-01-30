@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.project.myapplication.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/FlashButton"
+        android:layout_alignBottom="@+id/FlashButton"
+        android:layout_toLeftOf="@+id/FlashButton"
+        android:layout_toStartOf="@+id/FlashButton"
+        android:text="@string/flashlight"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ConnectButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/message"
+        android:textSize="25sp" />
+
+    <!-- MUSIC BUTTON -->
+    <Button
+        android:id="@+id/MusicButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/FlashButton"
+        android:layout_alignStart="@+id/FlashButton"
+        android:layout_below="@+id/FlashButton"
+        android:layout_marginTop="60dp"
+        android:text="@string/play"
+        android:textSize="30sp"/>
+    <!-- FLASHLIGHT BUTTON -->
+    <Button
+        android:id="@+id/FlashButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/on"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/MusicButton"
+        android:layout_alignBottom="@+id/MusicButton"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:text="@string/music"
+        android:textSize="20sp" />
+    <!-- CONNECT BUTTON -->
+
+    <Button
+        android:id="@+id/ConnectButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/PortTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/connect"
+        android:textSize="30sp"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/BrokerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/MusicButton"
+        android:layout_marginTop="57dp"
+        android:text="@string/broker_ip" />
+
+    <TextView
+        android:id="@+id/PortTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="@string/port_number" />
+
+
+    <TextView
+        android:id="@+id/FrequencyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/PortTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Frequency" />
+
+    <Button
+        android:id="@+id/PublishButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="publish"
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>
